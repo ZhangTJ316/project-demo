@@ -1,0 +1,31 @@
+{
+  /**
+   * 编译选项
+   */
+  "compilerOptions": {
+    /**
+     * 复合工程配置
+     */
+    "composite": true,
+    /**
+     * 跳过库检查
+     */
+    "skipLibCheck": true,
+    /**
+     * 模块类型
+     */
+    "module": "ESNext",
+    /**
+     * 模块解析策略
+     */
+    "moduleResolution": "bundler",
+    /**
+     * 允许JSON作为模块
+     */
+    "allowSyntheticDefaultImports": true
+  },
+  /**
+   * 包含的文件
+   */
+  "include": ["vite.config.ts"]
+} 

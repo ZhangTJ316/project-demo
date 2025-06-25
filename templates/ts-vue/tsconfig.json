@@ -1,0 +1,77 @@
+{
+  /**
+   * 继承的基础配置
+   */
+  "extends": [
+    "@tsconfig/node18/tsconfig.json",
+    "@vue/tsconfig/tsconfig.dom.json"
+  ],
+  /**
+   * 编译选项
+   */
+  "compilerOptions": {
+    /**
+     * 目标JavaScript版本
+     */
+    "target": "ES2020",
+    /**
+     * 模块类型
+     */
+    "module": "ESNext",
+    /**
+     * 模块解析策略
+     */
+    "moduleResolution": "Bundler",
+    /**
+     * 允许JavaScript文件编译
+     */
+    "allowJs": true,
+    /**
+     * 跳过库检查
+     */
+    "skipLibCheck": true,
+    /**
+     * 允许默认导入
+     */
+    "allowSyntheticDefaultImports": true,
+    /**
+     * 严格类型检查
+     */
+    "strict": true,
+    /**
+     * 保留jsx语法
+     */
+    "jsx": "preserve",
+    /**
+     * 类型声明文件
+     */
+    "types": ["node"],
+    /**
+     * 路径别名配置
+     */
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    /**
+     * 基础URL设置
+     */
+    "baseUrl": "."
+  },
+  /**
+   * 包含的文件模式
+   */
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "vite.config.ts"
+  ],
+  /**
+   * 排除的文件模式
+   */
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+} 

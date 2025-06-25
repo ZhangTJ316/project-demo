@@ -1,0 +1,69 @@
+/**
+ * 问候组件整体样式
+ */
+.hello-world {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+/**
+ * H3标题样式
+ */
+h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #20232a;
+}
+
+/**
+ * 代码块样式
+ */
+code {
+  background-color: #f0f0f0;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: monospace;
+  color: #087ea4;
+}
+
+/**
+ * 功能列表样式
+ */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/**
+ * 单个功能项样式
+ */
+.feature {
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/**
+ * 功能项悬停效果
+ */
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/**
+ * H5标题样式
+ */
+h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #087ea4;
+} 
